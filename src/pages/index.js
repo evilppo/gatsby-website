@@ -11,11 +11,10 @@ const IndexPage = () => (
     <h1>Homepage</h1>
     <p>Welcome to my website.</p>
     <p>Looking forward to adding some great content here! :)</p>
-    <p>Pictures, history, blogs... who knows?</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <Link to="/page-2/">Links and projects</Link>
   </Layout>
 )
 

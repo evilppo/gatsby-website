@@ -4,14 +4,18 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const SecondPage = () => (
-  <Layout>
-    <SEO title="Page two" />
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <p>Maybe I can add something cool here?</p>
+const SecondPage = () => <Layout>
+    <SEO title="Links and projects"/>
+    <h1>Links and projects</h1>
+    <p>
+        <span>Check out my </span>
+        <a href="https://github.com/evilppo">GitHub-profile</a>
+    </p>
+    <p>
+        <span>Check out my </span>
+        <a href="https://platformer-v1.herokuapp.com/assets-showcase/">platformer-game</a>
+    </p>
     <Link to="/">Go back to the homepage</Link>
-  </Layout>
-)
+</Layout>
 
 export default SecondPage
