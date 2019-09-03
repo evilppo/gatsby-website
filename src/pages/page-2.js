@@ -13,7 +13,7 @@ const SecondPage = () => <Layout>
     </p>
     <p>
         <span>Check out my </span>
-        <a href="https://platformer-v1.herokuapp.com/assets-showcase/">platformer-game</a>
+        <a href="https://platformer-v1.herokuapp.com/">platformer-game</a>
     </p>
     <Link to="/">Go back to the homepage</Link>
 </Layout>
