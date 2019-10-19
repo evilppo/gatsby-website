@@ -14,7 +14,7 @@ const SecondPage = () => (
         <a href="https://github.com/evilppo">GitHub</a>
       </li>
       <li>
-        <a href="https://no.linkedin.com/in/eirik-timo-b%C3%B8e-vilpponen-a2041436?trk=people-guest_profile-result-card_result-card_full-click">
+        <a href="https://www.linkedin.com/in/vilpponen">
           LinkedIn
         </a>
       </li>
