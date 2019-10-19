@@ -7,15 +7,15 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Eirik Vilpponen" />
+    <SEO title="Homepage" />
     <h1>Homepage</h1>
     <p>Welcome to my website.</p>
     <p>I'm a software developer based in Oslo, Norway.</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
-    <Link to="/page-2/">Links and projects</Link>
+    <Link to="/links/">Links and projects</Link>
   </Layout>
-)
+);
 
 export default IndexPage
